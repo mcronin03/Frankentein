@@ -20,7 +20,7 @@ const IndexPage = () => (
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
-        //
+        
         <Typewriter
           onInit={(typewriter) => {
             typewriter.typeString('Hello World!')
@@ -35,7 +35,7 @@ const IndexPage = () => (
       .start();
   }}
 />
-//
+
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
