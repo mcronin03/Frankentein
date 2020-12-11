@@ -10,13 +10,6 @@ module.exports = {
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Victor Frankenstein and Imposter Syndrome',
   subHeading: 'Am I ',
-  test: <Typewriter
-  options={{
-    strings: ['a Fraud?', 'Even Smart?', 'Going to be Found Out?'],
-    autoStart: true,
-    loop: true,
-  }}
-  />,
 
   // social
   socialLinks: [

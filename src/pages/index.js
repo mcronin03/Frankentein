@@ -23,7 +23,6 @@ const IndexPage = () => (
     loop: true,
   }}
 /></p>
-<p>{config.test}</p>
 
         <ul className="actions special">
           <li>
