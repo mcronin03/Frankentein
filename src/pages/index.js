@@ -18,7 +18,7 @@ const IndexPage = () => (
         <h2>{config.heading}</h2>
         <p>{config.subHeading}<Typewriter
   options={{
-    strings: ['a Fraud', 'being dumb lol'],
+    strings: ['a Fraud?', 'Even Smart?', 'Going to be Found Out?'],
     autoStart: true,
     loop: true,
   }}
