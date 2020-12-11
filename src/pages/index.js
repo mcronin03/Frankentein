@@ -16,20 +16,14 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
-        <p><Typewriter
+        <p>{config.subHeading}<Typewriter
   options={{
-    strings: ['Hello', 'Test2'],
+    strings: ['a Fraud', 'being dumb lol'],
     autoStart: true,
     loop: true,
   }}
 /></p>
-        <Typewriter
-  options={{
-    strings: ['Hello', 'Test2'],
-    autoStart: true,
-    loop: true,
-  }}
-/>
+
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
