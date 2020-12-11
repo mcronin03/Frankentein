@@ -2,6 +2,13 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import Typewriter from 'typewriter-effect/dist/core';
+ 
+new Typewriter('#typewriter', {
+  strings: ['Hello', 'World'],
+  autoStart: true,
+});
+
 import Scroll from '../components/Scroll';
 
 import pic1 from '../assets/images/pic01.jpg';
