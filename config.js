@@ -16,8 +16,8 @@ module.exports = {
     autoStart: true,
     loop: true,
   }}
-  />
-  
+  />,
+
   // social
   socialLinks: [
     {
