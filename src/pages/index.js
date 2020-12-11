@@ -2,6 +2,9 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+import Typewriter from 'typewriter-effect';
+
+
 import Scroll from '../components/Scroll';
 
 import pic1 from '../assets/images/pic01.jpg';
@@ -14,6 +17,13 @@ const IndexPage = () => (
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
+        <Typewriter
+  options={{
+    strings: ['Hello', 'World'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
