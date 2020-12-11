@@ -2,14 +2,13 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import Typewriter from 'typewriter-effect/dist/core';
- 
-new Typewriter('#typewriter', {
-  strings: ['Hello', 'World'],
-  autoStart: true,
-});
-
 import Scroll from '../components/Scroll';
+
+//
+import Typewriter from 'typewriter-effect';
+ 
+
+//
 
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
@@ -21,6 +20,22 @@ const IndexPage = () => (
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
+        //
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter.typeString('Hello World!')
+              .callFunction(() => {
+                console.log('String typed out!');
+              })
+      .pauseFor(2500)
+      .deleteAll()
+      .callFunction(() => {
+        console.log('All strings were deleted');
+      })
+      .start();
+  }}
+/>
+//
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
