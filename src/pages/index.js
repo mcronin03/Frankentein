@@ -16,7 +16,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
-        <p>Am I <Typewriter
+        <p><Typewriter
   options={{
     strings: ['Am I an Imposter?', 'Is Everyone in AP Lit Smarter Than Me?', 'Am I a Fraud?', 'Am I Even Smart?', 'Am I Qualified to Be Here?'],
     autoStart: true,

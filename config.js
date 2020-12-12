@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/images/FrankensteinThumbnail.png', 
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Victor Frankenstein and Imposter Syndrome',
-  subHeading: 'Is Victor ',
+  subHeading: 'Michael Cronin',
 
   // social
   socialLinks: [
