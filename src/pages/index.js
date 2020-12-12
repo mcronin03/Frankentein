@@ -16,19 +16,19 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
-        <p>{config.subHeading}<Typewriter
+        <p>Am I <Typewriter
   options={{
     strings: ['Am I an Imposter?', 'Is Everyone in AP Lit Smarter Than Me?', 'Am I a Fraud?', 'Am I Even Smart?', 'Am I Qualified to Be Here?'],
     autoStart: true,
     loop: true,
   }}
-/>{config.subHeading}</p>
+/></p>
 
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                What is Imposter Syndrome?
               </a>
             </Scroll>
           </li>
