@@ -22,7 +22,7 @@ const IndexPage = () => (
     autoStart: true,
     loop: true,
   }}
-/></p>
+/>{config.subHeading}</p>
 
         <ul className="actions special">
           <li>
