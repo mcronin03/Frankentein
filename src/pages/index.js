@@ -18,7 +18,7 @@ const IndexPage = () => (
         <h2>{config.heading}</h2>
         <p>{config.subHeading}<Typewriter
   options={{
-    strings: ['a Fraud?', 'Even Smart?', 'Going to be Found Out?'],
+    strings: ['Am I an Imposter?', 'Is Everyone in AP Lit Smarter Than Me?', 'Am I a Fraud?', 'Am I Even Smart?', 'Am I Qualified to Be Here?'],
     autoStart: true,
     loop: true,
   }}
@@ -43,7 +43,7 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper style1 special">
       <div className="inner">
-        <header className="major">
+        <header className="major">Franke
           <h2>
             Arcu aliquet vel lobortis ata nisl
             <br />
