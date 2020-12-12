@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/FrankensteinThumbnail.png',
+  manifestIcon: 'src/assets/images/FrankensteinThumbnail.png', 
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Victor Frankenstein and Imposter Syndrome',
   subHeading: 'Is Victor ',
