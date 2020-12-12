@@ -27,6 +27,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               <li>
                 <Link to="/Elements">Elements</Link>
               </li>
+              <li>
+                <Link to="/Counter">Counter</Link>
+              </li>
             </ul>
             <a
               className="close"
