@@ -72,7 +72,7 @@ class Counter extends Component {
                   <h3>Lorem ipsum dolor</h3>
 
                   <div className="col-4 col-12-small">
-								<input onChange={()=>this.increment1()} type="radio" id="demo-priority-low" name="demo-priority" />
+								<input checked={()=>this.increment1()} type="radio" id="demo-priority-low" name="demo-priority" />
 								<label htmlFor="demo-priority-low">Low</label>
 							</div>
 							<div className="col-4 col-12-small">
