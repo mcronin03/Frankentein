@@ -6,14 +6,38 @@ class Counter extends Component {
     constructor(props) {
         super(props)
         this.state = {
+            total: 0,
             count1: 0,
-            count2: 0
+            count2: 0,
+            count3: 0,
+            count4: 0,
+            count5: 0,
+            count6: 0,
+            count7: 0,
+            count8: 0,
+            count9: 0,
+            count10: 0,
+            count11: 0,
+            count12: 0,
+            count13: 0,
+            count14: 0,
+            count15: 0,
+            count16: 0,
+            count17: 0,
+            count18: 0,
+            count19: 0,
+            count20: 0
         }
         this.handleChange = this.handleChange.bind(this)
     }
-
-////////////////////////////////////////////
-
+//////////////////////
+    total() {
+        this.setState({
+            total: this.state.count1 + this.state.count2 + this.state.count3 + this.state.count4 + this.state.count5 + this.state.count6 + this.state.count7 + this.state.count8 + this.state.count9 + this.state.count10 + this.state.count11 + this.state.count12 + this.state.count13 + this.state.count14 + this.state.count15 + this.state.count16 + this.state.count17 + this.state.count18 + this.state.count19 + this.state.count20
+        })
+        console.log(this.state.total)
+    }
+//////////////////////////////////////////
 increment11() {
     this.setState({
         count1: this.state.count1 = 1
@@ -23,32 +47,32 @@ increment11() {
 
 increment12() {
     this.setState({
-        count2: this.state.count1 = 2
+        count1: this.state.count1 = 2
     })
     console.log(this.state.count1)
 }
 
 increment13() {
     this.setState({
-        count2: this.state.count1 = 3
+        count1: this.state.count1 = 3
     })
     console.log(this.state.count1)
 }
 
 increment14() {
     this.setState({
-        count2: this.state.count1 = 4
+        count1: this.state.count1 = 4
     })
     console.log(this.state.count1)
 }
 
 increment15() {
     this.setState({
-        count2: this.state.count1 = 5
+        count1: this.state.count1 = 5
     })
     console.log(this.state.count1)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment21() {
     this.setState({
         count2: this.state.count2 = 1
@@ -83,7 +107,7 @@ increment25() {
     })
     console.log(this.state.count2)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment31() {
     this.setState({
         count3: this.state.count3 = 1
@@ -93,32 +117,32 @@ increment31() {
 
 increment32() {
     this.setState({
-        count2: this.state.count3 = 2
+        count3: this.state.count3 = 2
     })
     console.log(this.state.count3)
 }
 
 increment33() {
     this.setState({
-        count2: this.state.count3 = 3
+        count3: this.state.count3 = 3
     })
     console.log(this.state.count3)
 }
 
 increment34() {
     this.setState({
-        count2: this.state.count3 = 4
+        count3: this.state.count3 = 4
     })
     console.log(this.state.count3)
 }
 
 increment35() {
     this.setState({
-        count2: this.state.count3 = 5
+        count3: this.state.count3 = 5
     })
     console.log(this.state.count3)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment41() {
     this.setState({
         count4: this.state.count4 = 1
@@ -128,32 +152,32 @@ increment41() {
 
 increment42() {
     this.setState({
-        count2: this.state.count4 = 2
+        count4: this.state.count4 = 2
     })
     console.log(this.state.count4)
 }
 
 increment43() {
     this.setState({
-        count2: this.state.count4 = 3
+        count4: this.state.count4 = 3
     })
     console.log(this.state.count4)
 }
 
 increment44() {
     this.setState({
-        count2: this.state.count4 = 4
+        count4: this.state.count4 = 4
     })
     console.log(this.state.count4)
 }
 
 increment45() {
     this.setState({
-        count2: this.state.count4 = 5
+        count4: this.state.count4 = 5
     })
     console.log(this.state.count4)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment51() {
     this.setState({
         count5: this.state.count5 = 1
@@ -163,32 +187,32 @@ increment51() {
 
 increment52() {
     this.setState({
-        count2: this.state.count5 = 2
+        count5: this.state.count5 = 2
     })
     console.log(this.state.count5)
 }
 
 increment53() {
     this.setState({
-        count2: this.state.count5 = 3
+        count5: this.state.count5 = 3
     })
     console.log(this.state.count5)
 }
 
 increment54() {
     this.setState({
-        count2: this.state.count5 = 4
+        count5: this.state.count5 = 4
     })
     console.log(this.state.count5)
 }
 
 increment55() {
     this.setState({
-        count2: this.state.count5 = 5
+        count5: this.state.count5 = 5
     })
     console.log(this.state.count5)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment61() {
     this.setState({
         count6: this.state.count6 = 1
@@ -198,32 +222,32 @@ increment61() {
 
 increment62() {
     this.setState({
-        count2: this.state.count6 = 2
+        count6: this.state.count6 = 2
     })
     console.log(this.state.count6)
 }
 
 increment63() {
     this.setState({
-        count2: this.state.count6 = 3
+        count6: this.state.count6 = 3
     })
     console.log(this.state.count6)
 }
 
 increment64() {
     this.setState({
-        count2: this.state.count6 = 4
+        count6: this.state.count6 = 4
     })
     console.log(this.state.count6)
 }
 
 increment65() {
     this.setState({
-        count2: this.state.count6 = 5
+        count6: this.state.count6 = 5
     })
     console.log(this.state.count6)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment71() {
     this.setState({
         count7: this.state.count7 = 1
@@ -233,32 +257,32 @@ increment71() {
 
 increment72() {
     this.setState({
-        count2: this.state.count7 = 2
+        count7: this.state.count7 = 2
     })
     console.log(this.state.count7)
 }
 
 increment73() {
     this.setState({
-        count2: this.state.count7 = 3
+        count7: this.state.count7 = 3
     })
     console.log(this.state.count7)
 }
 
 increment74() {
     this.setState({
-        count2: this.state.count7 = 4
+        count7: this.state.count7 = 4
     })
     console.log(this.state.count7)
 }
 
 increment75() {
     this.setState({
-        count2: this.state.count7 = 5
+        count7: this.state.count7 = 5
     })
     console.log(this.state.count7)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment81() {
     this.setState({
         count8: this.state.count8 = 1
@@ -268,32 +292,32 @@ increment81() {
 
 increment82() {
     this.setState({
-        count2: this.state.count8 = 2
+        count8: this.state.count8 = 2
     })
     console.log(this.state.count8)
 }
 
 increment83() {
     this.setState({
-        count2: this.state.count8 = 3
+        count8: this.state.count8 = 3
     })
     console.log(this.state.count8)
 }
 
 increment84() {
     this.setState({
-        count2: this.state.count8 = 4
+        count8: this.state.count8 = 4
     })
     console.log(this.state.count8)
 }
 
 increment85() {
     this.setState({
-        count2: this.state.count8 = 5
+        count8: this.state.count8 = 5
     })
     console.log(this.state.count8)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment91() {
     this.setState({
         count9: this.state.count9 = 1
@@ -303,32 +327,32 @@ increment91() {
 
 increment92() {
     this.setState({
-        count2: this.state.count9 = 2
+        count9: this.state.count9 = 2
     })
     console.log(this.state.count9)
 }
 
 increment93() {
     this.setState({
-        count2: this.state.count9 = 3
+        count9: this.state.count9 = 3
     })
     console.log(this.state.count9)
 }
 
 increment94() {
     this.setState({
-        count2: this.state.count9 = 4
+        count9: this.state.count9 = 4
     })
     console.log(this.state.count9)
 }
 
 increment95() {
     this.setState({
-        count2: this.state.count9 = 5
+        count9: this.state.count9 = 5
     })
     console.log(this.state.count9)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment101() {
     this.setState({
         count10: this.state.count10 = 1
@@ -338,32 +362,32 @@ increment101() {
 
 increment102() {
     this.setState({
-        count2: this.state.count10 = 2
+        count10: this.state.count10 = 2
     })
     console.log(this.state.count10)
 }
 
 increment103() {
     this.setState({
-        count2: this.state.count10 = 3
+        count10: this.state.count10 = 3
     })
     console.log(this.state.count10)
 }
 
 increment104() {
     this.setState({
-        count2: this.state.count10 = 4
+        count10: this.state.count10 = 4
     })
     console.log(this.state.count10)
 }
 
 increment105() {
     this.setState({
-        count2: this.state.count10 = 5
+        count10: this.state.count10 = 5
     })
     console.log(this.state.count10)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment111() {
     this.setState({
         count11: this.state.count11 = 1
@@ -373,32 +397,32 @@ increment111() {
 
 increment112() {
     this.setState({
-        count2: this.state.count11 = 2
+        count11: this.state.count11 = 2
     })
     console.log(this.state.count11)
 }
 
 increment113() {
     this.setState({
-        count2: this.state.count11 = 3
+        count11: this.state.count11 = 3
     })
     console.log(this.state.count11)
 }
 
 increment114() {
     this.setState({
-        count2: this.state.count11 = 4
+        count11: this.state.count11 = 4
     })
     console.log(this.state.count11)
 }
 
 increment115() {
     this.setState({
-        count2: this.state.count11 = 5
+        count11: this.state.count11 = 5
     })
     console.log(this.state.count11)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment121() {
     this.setState({
         count12: this.state.count12 = 1
@@ -408,32 +432,32 @@ increment121() {
 
 increment122() {
     this.setState({
-        count2: this.state.count12 = 2
+        count12: this.state.count12 = 2
     })
     console.log(this.state.count12)
 }
 
 increment123() {
     this.setState({
-        count2: this.state.count12 = 3
+        count12: this.state.count12 = 3
     })
     console.log(this.state.count12)
 }
 
 increment124() {
     this.setState({
-        count2: this.state.count12 = 4
+        count12: this.state.count12 = 4
     })
     console.log(this.state.count12)
 }
 
 increment125() {
     this.setState({
-        count2: this.state.count12 = 5
+        count12: this.state.count12 = 5
     })
     console.log(this.state.count12)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment131() {
     this.setState({
         count13: this.state.count13 = 1
@@ -443,32 +467,32 @@ increment131() {
 
 increment132() {
     this.setState({
-        count2: this.state.count13 = 2
+        count13: this.state.count13 = 2
     })
     console.log(this.state.count13)
 }
 
 increment133() {
     this.setState({
-        count2: this.state.count13 = 3
+        count13: this.state.count13 = 3
     })
     console.log(this.state.count13)
 }
 
 increment134() {
     this.setState({
-        count2: this.state.count13 = 4
+        count13: this.state.count13 = 4
     })
     console.log(this.state.count13)
 }
 
 increment135() {
     this.setState({
-        count2: this.state.count13 = 5
+        count13: this.state.count13 = 5
     })
     console.log(this.state.count13)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment141() {
     this.setState({
         count14: this.state.count14 = 1
@@ -478,32 +502,32 @@ increment141() {
 
 increment142() {
     this.setState({
-        count2: this.state.count14 = 2
+        count14: this.state.count14 = 2
     })
     console.log(this.state.count14)
 }
 
 increment143() {
     this.setState({
-        count2: this.state.count14 = 3
+        count14: this.state.count14 = 3
     })
     console.log(this.state.count14)
 }
 
 increment144() {
     this.setState({
-        count2: this.state.count14 = 4
+        count14: this.state.count14 = 4
     })
     console.log(this.state.count14)
 }
 
 increment145() {
     this.setState({
-        count2: this.state.count14 = 5
+        count14: this.state.count14 = 5
     })
     console.log(this.state.count14)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment151() {
     this.setState({
         count15: this.state.count15 = 1
@@ -513,32 +537,32 @@ increment151() {
 
 increment152() {
     this.setState({
-        count2: this.state.count15 = 2
+        count15: this.state.count15 = 2
     })
     console.log(this.state.count15)
 }
 
 increment153() {
     this.setState({
-        count2: this.state.count15 = 3
+        count15: this.state.count15 = 3
     })
     console.log(this.state.count15)
 }
 
 increment154() {
     this.setState({
-        count2: this.state.count15 = 4
+        count15: this.state.count15 = 4
     })
     console.log(this.state.count15)
 }
 
 increment155() {
     this.setState({
-        count2: this.state.count15 = 5
+        count15: this.state.count15 = 5
     })
     console.log(this.state.count15)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment161() {
     this.setState({
         count16: this.state.count16 = 1
@@ -548,32 +572,32 @@ increment161() {
 
 increment162() {
     this.setState({
-        count2: this.state.count16 = 2
+        count16: this.state.count16 = 2
     })
     console.log(this.state.count16)
 }
 
 increment163() {
     this.setState({
-        count2: this.state.count16 = 3
+        count16: this.state.count16 = 3
     })
     console.log(this.state.count16)
 }
 
 increment164() {
     this.setState({
-        count2: this.state.count16 = 4
+        count16: this.state.count16 = 4
     })
     console.log(this.state.count16)
 }
 
 increment165() {
     this.setState({
-        count2: this.state.count16 = 5
+        count16: this.state.count16 = 5
     })
     console.log(this.state.count16)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment171() {
     this.setState({
         count17: this.state.count17 = 1
@@ -583,32 +607,32 @@ increment171() {
 
 increment172() {
     this.setState({
-        count2: this.state.count17 = 2
+        count17: this.state.count17 = 2
     })
     console.log(this.state.count17)
 }
 
 increment173() {
     this.setState({
-        count2: this.state.count17 = 3
+        count17: this.state.count17 = 3
     })
     console.log(this.state.count17)
 }
 
 increment174() {
     this.setState({
-        count2: this.state.count17 = 4
+        count17: this.state.count17 = 4
     })
     console.log(this.state.count17)
 }
 
 increment175() {
     this.setState({
-        count2: this.state.count17 = 5
+        count17: this.state.count17 = 5
     })
     console.log(this.state.count17)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment181() {
     this.setState({
         count18: this.state.count18 = 1
@@ -618,32 +642,32 @@ increment181() {
 
 increment182() {
     this.setState({
-        count2: this.state.count18 = 2
+        count18: this.state.count18 = 2
     })
     console.log(this.state.count18)
 }
 
 increment183() {
     this.setState({
-        count2: this.state.count18 = 3
+        count18: this.state.count18 = 3
     })
     console.log(this.state.count18)
 }
 
 increment184() {
     this.setState({
-        count2: this.state.count18 = 4
+        count18: this.state.count18 = 4
     })
     console.log(this.state.count18)
 }
 
 increment185() {
     this.setState({
-        count2: this.state.count18 = 5
+        count18: this.state.count18 = 5
     })
     console.log(this.state.count18)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment191() {
     this.setState({
         count19: this.state.count19 = 1
@@ -653,32 +677,32 @@ increment191() {
 
 increment192() {
     this.setState({
-        count2: this.state.count19 = 2
+        count19: this.state.count19 = 2
     })
     console.log(this.state.count19)
 }
 
 increment193() {
     this.setState({
-        count2: this.state.count19 = 3
+        count19: this.state.count19 = 3
     })
     console.log(this.state.count19)
 }
 
 increment194() {
     this.setState({
-        count2: this.state.count19 = 4
+        count19: this.state.count19 = 4
     })
     console.log(this.state.count19)
 }
 
 increment195() {
     this.setState({
-        count2: this.state.count19 = 5
+        count19: this.state.count19 = 5
     })
     console.log(this.state.count19)
 }
-////////////////////////////////////////////
+//////////////////////////////////////////
 increment201() {
     this.setState({
         count20: this.state.count20 = 1
@@ -688,28 +712,28 @@ increment201() {
 
 increment202() {
     this.setState({
-        count2: this.state.count20 = 2
+        count20: this.state.count20 = 2
     })
     console.log(this.state.count20)
 }
 
 increment203() {
     this.setState({
-        count2: this.state.count20 = 3
+        count20: this.state.count20 = 3
     })
     console.log(this.state.count20)
 }
 
 increment204() {
     this.setState({
-        count2: this.state.count20 = 4
+        count20: this.state.count20 = 4
     })
     console.log(this.state.count20)
 }
 
 increment205() {
     this.setState({
-        count2: this.state.count20 = 5
+        count20: this.state.count20 = 5
     })
     console.log(this.state.count20)
 }
@@ -731,12 +755,13 @@ increment205() {
             <Layout fullMenu>
             <article id="main">
               <header>
-                <h2>Generic Page</h2>
-                <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+                <h2>Clance Imposter Phenomenon Scale</h2>
+                <p>For each question, circle the number that best indicates how true the statement is of you. <br></br>Give the
+first response that enters your mind.</p>
               </header>
-              <section className="wrapper style5">
+              <section className="wrapper style6">
                 <div className="inner">
-                <h3>I have often succeeded on a test or task even though I was afraid that I would not do well before I undertook the task.</h3>
+                <h3>1. I have often succeeded on a test or task even though I was afraid that I would not do well before I undertook the task.</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -759,7 +784,7 @@ increment205() {
 <input onChange={()=>this.increment15()} type="radio" id="q1.5" name="demo-1priority"/>
 <label htmlFor="q1.5">5 (very true)</label>
 </div>
-</div><h3>I can give the impression that I’m more competent than I really am.</h3>
+</div><br></br><h3>2. I can give the impression that I’m more competent than I really am.</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -782,7 +807,7 @@ increment205() {
 <input onChange={()=>this.increment25()} type="radio" id="q2.5" name="demo-2priority"/>
 <label htmlFor="q2.5">5 (very true)</label>
 </div>
-</div><h3>I avoid evaluations if possible and have a dread of others evaluating me</h3>
+</div><br></br><h3>3. I avoid evaluations if possible and have a dread of others evaluating me</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -805,7 +830,7 @@ increment205() {
 <input onChange={()=>this.increment35()} type="radio" id="q3.5" name="demo-3priority"/>
 <label htmlFor="q3.5">5 (very true)</label>
 </div>
-</div><h3> When people praise me for something I’ve accomplished, I’m afraid I won’t be able to live up to their expectations of me in the future</h3>
+</div><br></br><h3>4. When people praise me for something I’ve accomplished, I’m afraid I won’t be able to live up to their expectations of me in the future</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -828,7 +853,7 @@ increment205() {
 <input onChange={()=>this.increment45()} type="radio" id="q4.5" name="demo-4priority"/>
 <label htmlFor="q4.5">5 (very true)</label>
 </div>
-</div><h3> I sometimes think I obtained my present position or gained my present success because I happened to be in the right place at the right time or knew the right people</h3>
+</div><br></br><h3>5. I sometimes think I obtained my present position or gained my present success because I happened to be in the right place at the right time or knew the right people</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -851,7 +876,7 @@ increment205() {
 <input onChange={()=>this.increment55()} type="radio" id="q5.5" name="demo-5priority"/>
 <label htmlFor="q5.5">5 (very true)</label>
 </div>
-</div><h3> I’m afraid people important to me may find out that I’m not as capable as they think I am</h3>
+</div><br></br><h3>6. I’m afraid people important to me may find out that I’m not as capable as they think I am</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -874,7 +899,7 @@ increment205() {
 <input onChange={()=>this.increment65()} type="radio" id="q6.5" name="demo-6priority"/>
 <label htmlFor="q6.5">5 (very true)</label>
 </div>
-</div><h3> I tend to remember the incidents in which I have not done my best more than those times I have done my best</h3>
+</div><br></br><h3>7. I tend to remember the incidents in which I have not done my best more than those times I have done my best</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -897,7 +922,7 @@ increment205() {
 <input onChange={()=>this.increment75()} type="radio" id="q7.5" name="demo-7priority"/>
 <label htmlFor="q7.5">5 (very true)</label>
 </div>
-</div><h3> I rarely do a project or task as well as I’d like to do it</h3>
+</div><br></br><h3>8. I rarely do a project or task as well as I’d like to do it</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -920,7 +945,7 @@ increment205() {
 <input onChange={()=>this.increment85()} type="radio" id="q8.5" name="demo-8priority"/>
 <label htmlFor="q8.5">5 (very true)</label>
 </div>
-</div><h3> Sometimes I feel or believe that my success in my life or in my job has been the result of some kind of error</h3>
+</div><br></br><h3>9. Sometimes I feel or believe that my success in my life or in my job has been the result of some kind of error</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -943,7 +968,7 @@ increment205() {
 <input onChange={()=>this.increment95()} type="radio" id="q9.5" name="demo-9priority"/>
 <label htmlFor="q9.5">5 (very true)</label>
 </div>
-</div><h3> It’s hard for me to accept compliments or praise about my intelligence or accomplishments</h3>
+</div><br></br><h3>10. It’s hard for me to accept compliments or praise about my intelligence or accomplishments</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -966,7 +991,7 @@ increment205() {
 <input onChange={()=>this.increment105()} type="radio" id="q10.5" name="demo-10priority"/>
 <label htmlFor="q10.5">5 (very true)</label>
 </div>
-</div><h3> At times, I feel my success has been due to some kind of luck</h3>
+</div><br></br><h3>11. At times, I feel my success has been due to some kind of luck</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -989,7 +1014,7 @@ increment205() {
 <input onChange={()=>this.increment115()} type="radio" id="q11.5" name="demo-11priority"/>
 <label htmlFor="q11.5">5 (very true)</label>
 </div>
-</div><h3> I’m disappointed at times in my present accomplishments and think I should have accomplished much more</h3>
+</div><br></br><h3>12. I’m disappointed at times in my present accomplishments and think I should have accomplished much more</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -1012,7 +1037,7 @@ increment205() {
 <input onChange={()=>this.increment125()} type="radio" id="q12.5" name="demo-12priority"/>
 <label htmlFor="q12.5">5 (very true)</label>
 </div>
-</div><h3> Sometimes I’m afraid others will discover how much knowledge or ability I really lack</h3>
+</div><br></br><h3>13. Sometimes I’m afraid others will discover how much knowledge or ability I really lack</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -1035,7 +1060,7 @@ increment205() {
 <input onChange={()=>this.increment135()} type="radio" id="q13.5" name="demo-13priority"/>
 <label htmlFor="q13.5">5 (very true)</label>
 </div>
-</div><h3> I’m often afraid that I may fail at a new assignment or undertaking even though I generally do well at what I attempt</h3>
+</div><br></br><h3>14. I’m often afraid that I may fail at a new assignment or undertaking even though I generally do well at what I attempt</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -1058,7 +1083,7 @@ increment205() {
 <input onChange={()=>this.increment145()} type="radio" id="q14.5" name="demo-14priority"/>
 <label htmlFor="q14.5">5 (very true)</label>
 </div>
-</div><h3> When I’ve succeeded at something and received recognition for my accomplishments, I have doubts that I can keep repeating that success</h3>
+</div><br></br><h3>15. When I’ve succeeded at something and received recognition for my accomplishments, I have doubts that I can keep repeating that success</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -1081,7 +1106,7 @@ increment205() {
 <input onChange={()=>this.increment155()} type="radio" id="q15.5" name="demo-15priority"/>
 <label htmlFor="q15.5">5 (very true)</label>
 </div>
-</div><h3> If I receive a great deal of praise and recognition for something I’ve accomplished, I tend to discount the importance of what I’ve done</h3>
+</div><br></br><h3>16. If I receive a great deal of praise and recognition for something I’ve accomplished, I tend to discount the importance of what I’ve done</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -1104,7 +1129,7 @@ increment205() {
 <input onChange={()=>this.increment165()} type="radio" id="q16.5" name="demo-16priority"/>
 <label htmlFor="q16.5">5 (very true)</label>
 </div>
-</div><h3> I often compare my ability to those around me and think they may be more intelligent than I am</h3>
+</div><br></br><h3>17. I often compare my ability to those around me and think they may be more intelligent than I am</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -1127,7 +1152,7 @@ increment205() {
 <input onChange={()=>this.increment175()} type="radio" id="q17.5" name="demo-17priority"/>
 <label htmlFor="q17.5">5 (very true)</label>
 </div>
-</div><h3> I often worry about not succeeding with a project or examination, even though others around me have considerable confidence that I will do well</h3>
+</div><br></br><h3>18. I often worry about not succeeding with a project or examination, even though others around me have considerable confidence that I will do well</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -1150,7 +1175,7 @@ increment205() {
 <input onChange={()=>this.increment185()} type="radio" id="q18.5" name="demo-18priority"/>
 <label htmlFor="q18.5">5 (very true)</label>
 </div>
-</div><h3> If I’m going to receive a promotion or gain recognition of some kind, I hesitate to tell others until it is an accomplished fact</h3>
+</div><br></br><h3>19. If I’m going to receive a promotion or gain recognition of some kind, I hesitate to tell others until it is an accomplished fact</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -1173,7 +1198,7 @@ increment205() {
 <input onChange={()=>this.increment195()} type="radio" id="q19.5" name="demo-19priority"/>
 <label htmlFor="q19.5">5 (very true)</label>
 </div>
-</div><h3> I feel bad and discouraged if I’m not 'the best' or at least 'very special' in situations that involve achievement</h3>
+</div><br></br><h3>20. I feel bad and discouraged if I’m not 'the best' or at least 'very special' in situations that involve achievement</h3>
 
 <div className="row gtr-uniform">
 <div className="col-4 col-12-small">
@@ -1197,63 +1222,37 @@ increment205() {
 <label htmlFor="q20.5">5 (very true)</label>
 </div>
 </div>
+<br></br>
                   
                             
 
 
-                    <button onClick={()=>this.increment1()}>Decrease</button>
-                        <div>Count - {this.state.count1}</div>
-                        <div>Count - {this.state.count2}</div>
-                        {this.state.count1 + this.state.count2 === 1 && <span>show something</span>}
-                    <button>Increment</button>
-                  <p>
-                    Morbi mattis mi consectetur tortor elementum, varius pellentesque
-                    velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-                    scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-                    lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-                    Maecenas sagittis felis ac sagittis semper. Curabitur purus leo,
-                    tempus sed finibus eget, fringilla quis risus. Maecenas et lorem
-                    quis sem varius sagittis et a est. Maecenas iaculis iaculis sem.
-                    Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-                    fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-                    Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-                    fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-                    cursus. Etiam ut gravida sapien.
-                  </p>
-        
-                  <p>
-                    Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-                    amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-                    id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-                    Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-                    Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna,
-                    sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere
-                    leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse
-                    id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-                    consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-                    felis elementum varius.
-                  </p>
-        
+                    <button onClick={()=>this.total()}>Calculate Total</button>
+                        <div>Total - {this.state.total}</div>
+
+                        {this.state.total > 1 && this.state.total <= 40 && <span>You have few Impostor Syndrome characteristics</span>}
+                        {this.state.total >= 41 && this.state.total <= 60 && <span>You have Moderate Impostor Syndrome experiences</span>}
+                        {this.state.total >= 61 && this.state.total <= 80 && <span>You frequently have Impostor Syndrome feelings</span>}
+                        {this.state.total > 80 && <span>You frequently have intense Impostor Syndrome experiences</span>}
+
+            
+
                   <hr />
         
-                  <h4>Feugiat aliquam</h4>
+                  <h4>About The Test</h4>
                   <p>
-                    Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec
-                    varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia
-                    tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in
-                    tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean
-                    erat diam, tempus aliquet erat.
+                  The Impostor Test was developed to help individuals determine whether or not they have IP characteristics and, if so, to what
+extent they are suffering.
+After taking the Impostor Test, add together the numbers of the responses to each statement. If the total score is 40 or less, the
+respondent has few Impostor characteristics; if the score is between 41 and 60, the respondent has moderate IP experiences; a
+score between 61 and 80 means the respondent frequently has Impostor feelings; and a score higher than 80 means the
+respondent often has intense IP experiences. The higher the score, the more frequently and seriously the Impostor Phenomenon
+interferes in a person’s life.
                   </p>
         
+                   <h4>Source</h4>
                   <p>
-                    Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus
-                    rutrum cursus velit, eget condimentum nunc blandit vel. In at
-                    pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget,
-                    fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra
-                    commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim
-                    vel, posuere finibus justo. Vivamus facilisis maximus nibh quis
-                    pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum.
-                    Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.
+                  From The Impostor Phenomenon: When Success Makes You Feel Like A Fake (pp. 20-22), by P.R. Clance, 1985, Toronto: Bantam Books.
                   </p>
                 </div>
               </section>

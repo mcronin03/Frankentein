@@ -1358,6 +1358,14 @@
 			@include wrapper(accent7);
 		}
 
+		&.style6 {
+			@include wrapper(accent8);
+		}
+
+		&.style7 {
+			@include wrapper(accent2);
+		}
+
 		@include breakpoint('<=medium') {
 			@include padding(4em, 3em);
 		}
