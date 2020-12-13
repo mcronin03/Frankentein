@@ -739,23 +739,23 @@ increment205() {
                   <h3>Lorem ipsum dolor</h3>
 
                             <div className="col-4 col-12-small">
-								<input onChange={()=>this.increment1()} type="radio" id="q1.1" name="demo-priority" />
+								<input onChange={()=>this.increment11()} type="radio" id="q1.1" name="demo-priority" />
 								<label htmlFor="q1.1">1</label>
 							</div>
 							<div className="col-4 col-12-small">
-								<input onChange={()=>this.increment2()} type="radio" id="q1.2" name="demo-priority" />
+								<input onChange={()=>this.increment12()} type="radio" id="q1.2" name="demo-priority" />
 								<label htmlFor="q1.2">2</label>
 							</div>
 							<div className="col-4 col-12-small">
-								<input onChange={()=>this.increment3()} type="radio" id="q1.3" name="demo-priority" />
+								<input onChange={()=>this.increment13()} type="radio" id="q1.3" name="demo-priority" />
 								<label htmlFor="q1.3">3</label>
 							</div>
                             <div className="col-4 col-12-small">
-								<input onChange={()=>this.increment4()} type="radio" id="q1.4" name="demo-priority" />
+								<input onChange={()=>this.increment14()} type="radio" id="q1.4" name="demo-priority" />
 								<label htmlFor="q1.4">4</label>
 							</div>
 							<div className="col-4 col-12-small">
-								<input onChange={()=>this.increment5()} type="radio" id="q1.5" name="demo-priority" />
+								<input onChange={()=>this.increment15()} type="radio" id="q1.5" name="demo-priority" />
 								<label htmlFor="q1.5">5</label>
 							</div>
 
