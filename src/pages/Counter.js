@@ -72,15 +72,15 @@ class Counter extends Component {
                   <h3>Lorem ipsum dolor</h3>
 
                   <div className="col-4 col-12-small">
-								<input onClick={()=>this.increment1()} type="radio" id="demo-priority-low" name="demo-priority" />
+								<input onChange={()=>this.increment1()} type="radio" id="demo-priority-low" name="demo-priority" />
 								<label htmlFor="demo-priority-low">Low</label>
 							</div>
 							<div className="col-4 col-12-small">
-								<input type="radio" id="demo-priority-normal" name="demo-priority" />
+								<input onClick={()=>this.increment2()} type="radio" id="demo-priority-normal" name="demo-priority" />
 								<label htmlFor="demo-priority-normal">Normal</label>
 							</div>
 							<div className="col-4 col-12-small">
-								<input type="radio" id="demo-priority-high" name="demo-priority" />
+								<input value={()=>this.increment3()} type="radio" id="demo-priority-high" name="demo-priority" />
 								<label htmlFor="demo-priority-high">High</label>
 							</div>
 
