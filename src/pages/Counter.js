@@ -70,6 +70,21 @@ class Counter extends Component {
               <section className="wrapper style5">
                 <div className="inner">
                   <h3>Lorem ipsum dolor</h3>
+
+                  <div className="col-4 col-12-small">
+								<input onClick={()=>this.increment1()} type="radio" id="demo-priority-low" name="demo-priority" />
+								<label htmlFor="demo-priority-low">Low</label>
+							</div>
+							<div className="col-4 col-12-small">
+								<input type="radio" id="demo-priority-normal" name="demo-priority" />
+								<label htmlFor="demo-priority-normal">Normal</label>
+							</div>
+							<div className="col-4 col-12-small">
+								<input type="radio" id="demo-priority-high" name="demo-priority" />
+								<label htmlFor="demo-priority-high">High</label>
+							</div>
+
+
                     <button onClick={()=>this.increment1()}>Decrease</button>
                         <div>Count - {this.state.count}</div>
                     <button onClick={() => this.increment1()}>Increment</button>
