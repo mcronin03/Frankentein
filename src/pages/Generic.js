@@ -1,6 +1,4 @@
-//import React from 'react';
-import React, { Component, useState } from "react"
-
+import React from 'react';
 
 import Layout from '../components/Layout';
 
@@ -14,9 +12,6 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <h3>Lorem ipsum dolor</h3>
-          <button onClick={()=>this.increment1()}>Decrease</button>
-                <div>Count - {this.state.count}</div>
-                <button onClick={() => this.increment1()}>Increment</button>
           <p>
             Morbi mattis mi consectetur tortor elementum, varius pellentesque
             velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
@@ -71,61 +66,5 @@ const IndexPage = () => (
     </article>
   </Layout>
 );
-
-//
-class Counter extends Component {
-  constructor(props) {
-      super(props)
-      this.state = {
-          count: 0
-      }
-      this.handleChange = this.handleChange.bind(this)
-  }
-
-  increment1() {
-      this.setState({
-          count: this.state.count + 1
-      })
-      console.log(this.state.count)
-  }
-
-  increment2() {
-      this.setState({
-          count: this.state.count + 2
-      })
-      console.log(this.state.count)
-  }
-
-  increment3() {
-      this.setState({
-          count: this.state.count + 3
-      })
-      console.log(this.state.count)
-  }
-
-  increment4() {
-      this.setState({
-          count: this.state.count + 4
-      })
-      console.log(this.state.count)
-  }
-
-  increment5() {
-      this.setState({
-          count: this.state.count + 5
-      })
-      console.log(this.state.count)
-  }
-
-
-  handleChange(event) {
-      this.setState({
-          count: parseInt(event.target.value)
-      });
-  }
-}
-//
-
-
 
 export default IndexPage;
