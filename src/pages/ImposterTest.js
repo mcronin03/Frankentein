@@ -1228,7 +1228,7 @@ first response that enters your mind.</p>
 
 
                     <button onClick={()=>this.total()}>Calculate Total</button>
-                        <div>Total - {this.state.total}</div>
+                    <br></br><br></br><div>Total - {this.state.total}</div>
 
                         {this.state.total > 1 && this.state.total <= 40 && <span>You have few Impostor Syndrome characteristics</span>}
                         {this.state.total >= 41 && this.state.total <= 60 && <span>You have Moderate Impostor Syndrome experiences</span>}
