@@ -8,19 +8,22 @@ class Counter extends Component {
         this.state = {
             count: 0
         }
+        this.state2 = {
+            count: 0
+        }
         this.handleChange = this.handleChange.bind(this)
     }
 
     increment1() {
         this.setState({
-            count: this.state.count + 1
+            count: this.state.count == 1
         })
         console.log(this.state.count)
     }
 
     increment2() {
         this.setState({
-            count: this.state.count + 2
+            count: this.state.count == 2
         })
         console.log(this.state.count)
     }
@@ -72,7 +75,7 @@ class Counter extends Component {
                   <h3>Lorem ipsum dolor</h3>
 
                   <div className="col-4 col-12-small">
-								<input checked={()=>this.increment1()} type="radio" id="demo-priority-low" name="demo-priority" />
+								<input onClick={()=>this.increment1()} type="radio" id="demo-priority-low" name="demo-priority" />
 								<label htmlFor="demo-priority-low">Low</label>
 							</div>
 							<div className="col-4 col-12-small">
@@ -83,6 +86,22 @@ class Counter extends Component {
 								<input value={()=>this.increment3()} type="radio" id="demo-priority-high" name="demo-priority" />
 								<label htmlFor="demo-priority-high">High</label>
 							</div>
+                            
+                            <h3>Lorem ipsum dolor</h3>
+
+                  <div className="col-4 col-12-small">
+								<input onClick={()=>this.increment1()} type="radio" id="demo-priority-low" name="demo-priority" />
+								<label htmlFor="demo-priority-low">Low</label>
+							</div>
+							<div className="col-4 col-12-small">
+								<input onClick={()=>this.increment2()} type="radio" id="demo-priority-normal" name="demo-priority" />
+								<label htmlFor="demo-priority-normal">Normal</label>
+							</div>
+							<div className="col-4 col-12-small">
+								<input value={()=>this.increment3()} type="radio" id="demo-priority-high" name="demo-priority" />
+								<label htmlFor="demo-priority-high">High</label>
+							</div>
+
 
 
                     <button onClick={()=>this.increment1()}>Decrease</button>
