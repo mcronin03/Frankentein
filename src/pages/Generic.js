@@ -2,8 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import Counter from 'Counter';
-
 const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
@@ -14,17 +12,6 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <h3>Lorem ipsum dolor</h3>
-          <a href="/#" className="button primary">
-                What is Imposter Syndrome?
-              </a>
-
-
-              <button onClick={()=>this.increment1()}>Decrease</button>
-                <div>Count - {this.state.count}</div>
-                <button onClick={() => this.increment1()}>Increment</button>
-
-
-
           <p>
             Morbi mattis mi consectetur tortor elementum, varius pellentesque
             velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
