@@ -6,7 +6,7 @@ class Counter extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            count: 0,
+            count1: 0,
             count2: 0
         }
         this.handleChange = this.handleChange.bind(this)
@@ -784,9 +784,9 @@ increment205() {
 
 
                     <button onClick={()=>this.increment1()}>Decrease</button>
-                        <div>Count - {this.state.count}</div>
+                        <div>Count - {this.state.count1}</div>
                         <div>Count - {this.state.count2}</div>
-                        {this.state.count + this.state.count2 === 1 && <span>show something</span>}
+                        {this.state.count1 + this.state.count2 === 1 && <span>show something</span>}
                     <button>Increment</button>
                   <p>
                     Morbi mattis mi consectetur tortor elementum, varius pellentesque
