@@ -736,9 +736,9 @@ increment205() {
               </header>
               <section className="wrapper style5">
                 <div className="inner">
-
                 <h3>I have often succeeded on a test or task even though I was afraid that I would not do well before I undertook the task.</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment11()} type="radio" id="q1.1" name="demo-1priority"/>
 <label htmlFor="q1.1">1 (not at all true)</label>
@@ -758,8 +758,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment15()} type="radio" id="q1.5" name="demo-1priority"/>
 <label htmlFor="q1.5">5 (very true)</label>
+</div>
 </div><h3>I can give the impression that I’m more competent than I really am.</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment21()} type="radio" id="q2.1" name="demo-2priority"/>
 <label htmlFor="q2.1">1 (not at all true)</label>
@@ -779,8 +781,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment25()} type="radio" id="q2.5" name="demo-2priority"/>
 <label htmlFor="q2.5">5 (very true)</label>
+</div>
 </div><h3>I avoid evaluations if possible and have a dread of others evaluating me</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment31()} type="radio" id="q3.1" name="demo-3priority"/>
 <label htmlFor="q3.1">1 (not at all true)</label>
@@ -800,8 +804,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment35()} type="radio" id="q3.5" name="demo-3priority"/>
 <label htmlFor="q3.5">5 (very true)</label>
+</div>
 </div><h3> When people praise me for something I’ve accomplished, I’m afraid I won’t be able to live up to their expectations of me in the future</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment41()} type="radio" id="q4.1" name="demo-4priority"/>
 <label htmlFor="q4.1">1 (not at all true)</label>
@@ -821,8 +827,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment45()} type="radio" id="q4.5" name="demo-4priority"/>
 <label htmlFor="q4.5">5 (very true)</label>
+</div>
 </div><h3> I sometimes think I obtained my present position or gained my present success because I happened to be in the right place at the right time or knew the right people</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment51()} type="radio" id="q5.1" name="demo-5priority"/>
 <label htmlFor="q5.1">1 (not at all true)</label>
@@ -842,8 +850,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment55()} type="radio" id="q5.5" name="demo-5priority"/>
 <label htmlFor="q5.5">5 (very true)</label>
+</div>
 </div><h3> I’m afraid people important to me may find out that I’m not as capable as they think I am</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment61()} type="radio" id="q6.1" name="demo-6priority"/>
 <label htmlFor="q6.1">1 (not at all true)</label>
@@ -863,8 +873,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment65()} type="radio" id="q6.5" name="demo-6priority"/>
 <label htmlFor="q6.5">5 (very true)</label>
+</div>
 </div><h3> I tend to remember the incidents in which I have not done my best more than those times I have done my best</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment71()} type="radio" id="q7.1" name="demo-7priority"/>
 <label htmlFor="q7.1">1 (not at all true)</label>
@@ -884,8 +896,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment75()} type="radio" id="q7.5" name="demo-7priority"/>
 <label htmlFor="q7.5">5 (very true)</label>
+</div>
 </div><h3> I rarely do a project or task as well as I’d like to do it</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment81()} type="radio" id="q8.1" name="demo-8priority"/>
 <label htmlFor="q8.1">1 (not at all true)</label>
@@ -905,8 +919,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment85()} type="radio" id="q8.5" name="demo-8priority"/>
 <label htmlFor="q8.5">5 (very true)</label>
+</div>
 </div><h3> Sometimes I feel or believe that my success in my life or in my job has been the result of some kind of error</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment91()} type="radio" id="q9.1" name="demo-9priority"/>
 <label htmlFor="q9.1">1 (not at all true)</label>
@@ -926,8 +942,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment95()} type="radio" id="q9.5" name="demo-9priority"/>
 <label htmlFor="q9.5">5 (very true)</label>
+</div>
 </div><h3> It’s hard for me to accept compliments or praise about my intelligence or accomplishments</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment101()} type="radio" id="q10.1" name="demo-10priority"/>
 <label htmlFor="q10.1">1 (not at all true)</label>
@@ -947,8 +965,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment105()} type="radio" id="q10.5" name="demo-10priority"/>
 <label htmlFor="q10.5">5 (very true)</label>
+</div>
 </div><h3> At times, I feel my success has been due to some kind of luck</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment111()} type="radio" id="q11.1" name="demo-11priority"/>
 <label htmlFor="q11.1">1 (not at all true)</label>
@@ -968,8 +988,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment115()} type="radio" id="q11.5" name="demo-11priority"/>
 <label htmlFor="q11.5">5 (very true)</label>
+</div>
 </div><h3> I’m disappointed at times in my present accomplishments and think I should have accomplished much more</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment121()} type="radio" id="q12.1" name="demo-12priority"/>
 <label htmlFor="q12.1">1 (not at all true)</label>
@@ -989,8 +1011,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment125()} type="radio" id="q12.5" name="demo-12priority"/>
 <label htmlFor="q12.5">5 (very true)</label>
+</div>
 </div><h3> Sometimes I’m afraid others will discover how much knowledge or ability I really lack</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment131()} type="radio" id="q13.1" name="demo-13priority"/>
 <label htmlFor="q13.1">1 (not at all true)</label>
@@ -1010,8 +1034,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment135()} type="radio" id="q13.5" name="demo-13priority"/>
 <label htmlFor="q13.5">5 (very true)</label>
+</div>
 </div><h3> I’m often afraid that I may fail at a new assignment or undertaking even though I generally do well at what I attempt</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment141()} type="radio" id="q14.1" name="demo-14priority"/>
 <label htmlFor="q14.1">1 (not at all true)</label>
@@ -1031,8 +1057,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment145()} type="radio" id="q14.5" name="demo-14priority"/>
 <label htmlFor="q14.5">5 (very true)</label>
+</div>
 </div><h3> When I’ve succeeded at something and received recognition for my accomplishments, I have doubts that I can keep repeating that success</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment151()} type="radio" id="q15.1" name="demo-15priority"/>
 <label htmlFor="q15.1">1 (not at all true)</label>
@@ -1052,8 +1080,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment155()} type="radio" id="q15.5" name="demo-15priority"/>
 <label htmlFor="q15.5">5 (very true)</label>
+</div>
 </div><h3> If I receive a great deal of praise and recognition for something I’ve accomplished, I tend to discount the importance of what I’ve done</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment161()} type="radio" id="q16.1" name="demo-16priority"/>
 <label htmlFor="q16.1">1 (not at all true)</label>
@@ -1073,8 +1103,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment165()} type="radio" id="q16.5" name="demo-16priority"/>
 <label htmlFor="q16.5">5 (very true)</label>
+</div>
 </div><h3> I often compare my ability to those around me and think they may be more intelligent than I am</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment171()} type="radio" id="q17.1" name="demo-17priority"/>
 <label htmlFor="q17.1">1 (not at all true)</label>
@@ -1094,8 +1126,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment175()} type="radio" id="q17.5" name="demo-17priority"/>
 <label htmlFor="q17.5">5 (very true)</label>
+</div>
 </div><h3> I often worry about not succeeding with a project or examination, even though others around me have considerable confidence that I will do well</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment181()} type="radio" id="q18.1" name="demo-18priority"/>
 <label htmlFor="q18.1">1 (not at all true)</label>
@@ -1115,8 +1149,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment185()} type="radio" id="q18.5" name="demo-18priority"/>
 <label htmlFor="q18.5">5 (very true)</label>
+</div>
 </div><h3> If I’m going to receive a promotion or gain recognition of some kind, I hesitate to tell others until it is an accomplished fact</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment191()} type="radio" id="q19.1" name="demo-19priority"/>
 <label htmlFor="q19.1">1 (not at all true)</label>
@@ -1136,8 +1172,10 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment195()} type="radio" id="q19.5" name="demo-19priority"/>
 <label htmlFor="q19.5">5 (very true)</label>
+</div>
 </div><h3> I feel bad and discouraged if I’m not 'the best' or at least 'very special' in situations that involve achievement</h3>
 
+<div className="row gtr-uniform">
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment201()} type="radio" id="q20.1" name="demo-20priority"/>
 <label htmlFor="q20.1">1 (not at all true)</label>
@@ -1157,6 +1195,7 @@ increment205() {
 <div className="col-4 col-12-small">
 <input onChange={()=>this.increment205()} type="radio" id="q20.5" name="demo-20priority"/>
 <label htmlFor="q20.5">5 (very true)</label>
+</div>
 </div>
                   
                             
