@@ -9,7 +9,7 @@ import Scroll from '../components/Scroll';
 
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic3 from '../assets/images/Impostor.gif';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -43,37 +43,24 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper style7 special">
       <div className="inner">
-        <header className="major">Franke
+        <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Imposter Syndrome
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+          Imposter Syndrome was first identified by Dr. Pauline Clance and Dr. Suzanne Imes in 1978, 
+          and described as <b>"high achievers who are unable to internalize and accept their success. 
+          They often attribute their accomplishments to luck rather than to ability, 
+          and fear that others will eventually unmask them as a fraud."</b>  
+          <br></br>
+          A <a href="https://www.nytimes.com/2015/10/26/your-money/learning-to-deal-with-the-impostor-syndrome.html">New York Times article</a> by Carl Richards uses author and poet Maya Angelou as an example of imposter syndrome.  
+          Angelou’s career is marked by her “winning three Grammys and being nominated for a Pulitzer Prize and a Tony Award.”  
+          But despite these concrete examples of extreme talent and success, Angelou still fears that when a new novel,  
+          “they’re going to find out now.  I’ve run a game on everybody, and they’re going to find me out."  
+          <br></br>
+          A <a href="https://time.com/5312483/how-to-deal-with-impostor-syndrome/">TIME Magazine article</a> by Abigail Abrams identifies several patterns among people who experience Imposter Syndrome, inlcuding “when the ‘natural genius’ has to struggle or work hard to accomplish something, he or she thinks this means they aren’t good enough”
           </p>
         </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
       </div>
     </section>
 
@@ -83,13 +70,14 @@ const IndexPage = () => (
           <img src={pic1} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
+          <header>
+            <h2>
+            Victor and the Monster's intellect
+            </h2>
+            <p>Are there conditions for imposter sydrome?</p>
+          </header>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
+            Aliquam ut ex ut augue consectetur interdum. Donec hendre rit
             imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
           </p>
         </div>
@@ -100,9 +88,9 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
+            Victor's responce to the monster's intellect
             <br />
-            elementum magna
+            Does he exhibit imposter syndrome?
           </h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
@@ -116,13 +104,12 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
+            AP Lit: A Modern Example
             <br />
-            sed condimentum
+            Do we have imposter syndrome?
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Link to quiz page.
           </p>
         </div>
       </section>
