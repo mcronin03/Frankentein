@@ -72,9 +72,9 @@ const IndexPage = () => (
         <div className="content">
           <header>
             <h2>
-            Victor and the Monster's intellect
+            Victor vs. the Monster's intellect
             </h2>
-            <p>Are there conditions for imposter sydrome?</p>
+            <p>Victor's percieved inferior intelligence is the precurser to his Imposter Syndrome</p>
           </header>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendre rit
