@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/FrankensteinThumbnail.png', 
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Victor Frankenstein and Imposter Syndrome',
+  heading: 'Intelligence and Imposter Syndrome',
   subHeading: 'Michael Cronin',
 
   // social

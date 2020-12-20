@@ -1241,13 +1241,13 @@ first response that enters your mind.</p>
         
                   <h4>About The Test</h4>
                   <p>
-                  The Impostor Test was developed to help individuals determine whether or not they have IP characteristics and, if so, to what
-extent they are suffering.
+                  "The Impostor Test was developed to help individuals determine whether or not they have IP characteristics and, if so, to what
+extent they are suffering.<br></br>
 After taking the Impostor Test, add together the numbers of the responses to each statement. If the total score is 40 or less, the
 respondent has few Impostor characteristics; if the score is between 41 and 60, the respondent has moderate IP experiences; a
 score between 61 and 80 means the respondent frequently has Impostor feelings; and a score higher than 80 means the
 respondent often has intense IP experiences. The higher the score, the more frequently and seriously the Impostor Phenomenon
-interferes in a person’s life.
+interferes in a person’s life." <br></br><br></br>- Dr. Clance, author of <i>The Impostor Phenomenon: Overcoming the Fear that Haunts Your Success</i>
                   </p>
         
                    <h4>Source</h4>
