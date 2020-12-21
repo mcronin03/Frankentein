@@ -169,13 +169,13 @@ const IndexPage = () => (
           TIME Magazine also notes that <b>“factors outside of a person, such as their environment”</b> can induce Imposter Syndrome.  
           Victor reflects on his childhood environment as perfect, 
           stating that “no human being could have passed a happier childhood than myself” (Shelley).  
-          But what Victer saw as perfection was in fact <b>seclusion</b>, 
+          But what Victor saw as perfection was in fact <b>seclusion</b>, 
           protecting Victor from ever challenging himself or struggling in his studies.  
           Victor’s secluded childhood allowed him to establish his ego around always being the smartest person in the room.  
           He surrounded himself with people like Elizabeth and Clerval who he did not see as intellectuals, 
           but people “full of kindness and tenderness” and “perfectly humane” (Shelley).
           <br></br><br></br>
-          Victor’s <b>environment</b> changes when he meets the Creature: a being smarter than victor, 
+          Victor’s <b>environment</b> changes when he meets the Creature: a being smarter than Victor, 
           and one which he can’t seem to remove from his life.  
           Victor’s identity of always being the smartest person is crushed by the Creature.  
           Victor almost explicitly acknowledges this environmental change when telling Walton 
@@ -230,7 +230,7 @@ const IndexPage = () => (
               </a>
               <br></br><br></br>
             <p>
-            Learn to deal with Imposter Syndroms by using these tips from an <a href="https://blog.hubspot.com/marketing/impostor-syndrome-tips">article</a> by Lindsay Kolowich Cox.
+            Learn to deal with Imposter Syndrome by using these tips from an <a href="https://blog.hubspot.com/marketing/impostor-syndrome-tips">article</a> by Lindsay Kolowich Cox.
           </p>
         </header>
         <ul className="features">
