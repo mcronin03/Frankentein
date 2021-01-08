@@ -21,13 +21,25 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    //
+    // DEC 2020
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingId: "UA-144910986-2",
         head: true,
+      },
+    },
+    // JAN 2021
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-HJ8DHXKWYS", // Google Analytics / GA
+          "AW-CONVERSION_ID", // Google Ads / Adwords / AW
+          "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+        ],
       },
     },
     //
