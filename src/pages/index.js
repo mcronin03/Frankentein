@@ -147,7 +147,7 @@ const IndexPage = () => (
           “they’re going to find out now.  I’ve run a game on everybody, and they’re going to find me out." 
           <br></br><br></br>
           Imposter Syndrome was first identified in 1978 by psychologist Pauline Clance, 
-          however the phenomenon is clearly seen in Victor Frankenstein in Mary Shelley’s novel Frankenstein.  
+          however the phenomenon is clearly seen in the character Victor Frankenstein in Mary Shelley’s novel <i>Frankenstein</i>.  
           Victor is an intelligent scientist who, despite his successful experiment, 
           continually questions his intelligence and sees himself as a failure.
           </p>
