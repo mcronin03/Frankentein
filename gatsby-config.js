@@ -21,7 +21,7 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    // DEC 2020
+    // DEC 2020 test
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
