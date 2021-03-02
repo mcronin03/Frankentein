@@ -141,7 +141,7 @@ const IndexPage = () => (
           and leads to them doubting their abilities and feeling like failures.  
           <br></br><br></br>
           A <a href="https://www.nytimes.com/2015/10/26/your-money/learning-to-deal-with-the-impostor-syndrome.html">New York Times article</a> by 
-          Carl Richards documents <b color="blue">Maya Angelou's experience with imposter syndrome. </b>  
+          Carl Richards documents <b>Maya Angelou's experience with imposter syndrome. </b>  
           Angelou’s writing career is marked by her “winning three Grammys and being nominated for a Pulitzer Prize and a Tony Award.”  
           But despite these concrete examples of extreme talent and success, Angelou still fears that when writing a new novel,  
           “they’re going to find out now.  I’ve run a game on everybody, and they’re going to find me out." 
